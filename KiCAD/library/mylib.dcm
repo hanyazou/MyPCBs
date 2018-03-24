@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATSAMD21E18A-AU
+D Cortex-M0+ 256KB 16KB SRAM 32TQFP 48MHz Atmel ATSAMD21E18A-AU, 32bit ARM Cortex M0+ Microcontroller, 48MHz, 256 kB Flash, 32-Pin TQFP
+F http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
