@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /Users/takemura/Documents/KiCAD/epaper-adapters/epaper-adapters.sch)
-    (date "2018 March 18, Sunday 14:27:49")
+    (source /Users/takemura/github/MyPCBs/KiCAD/epaper-adapters/epaper-adapters.sch)
+    (date "2018 March 24, Saturday 14:50:05")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -125,7 +125,7 @@
       (tstamp 5AADB8B4))
     (comp (ref Q1)
       (value "IRLML6344TRPBF / SI1308EDL")
-      (footprint TO_SOT_Packages_SMD:SOT-323_SC-70)
+      (footprint TO_SOT_Packages_SMD:SOT-23)
       (libsource (lib device) (part Q_PJFET_GSD))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AADC6B9))
@@ -319,12 +319,12 @@
         (pin (num 7) (name CS) (type input))
         (pin (num 8) (name INT) (type input)))))
   (libraries
+    (library (logical mylib)
+      (uri /Users/takemura/Documents/KiCAD/library/mylib.lib))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical mylib)
-      (uri /Users/takemura/Documents/KiCAD/library/mylib.lib)))
+      (uri "/Library/Application Support/kicad/library/device.lib")))
   (nets
     (net (code 1) (name /NC1)
       (node (ref P1) (pin 1)))

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:ESP32-epaper-adapter-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:mylib
-LIBS:epaper-adapters-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -489,7 +487,7 @@ U 1 1 5AADC6B9
 P 5600 2550
 F 0 "Q1" H 5800 2600 50  0000 L CNN
 F 1 "IRLML6344TRPBF / SI1308EDL" H 5800 2500 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 5800 2650 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5800 2650 50  0001 C CNN
 F 3 "" H 5600 2550 50  0001 C CNN
 	1    5600 2550
 	1    0    0    -1  
