@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BL654-nRF52840-451-00001)(type Legacy)(uri /Users/takemura/github/MyPCBs/KiCAD/library.pretty/BL654-nRF52840-451-00001.mod)(options "")(descr ""))
+)
