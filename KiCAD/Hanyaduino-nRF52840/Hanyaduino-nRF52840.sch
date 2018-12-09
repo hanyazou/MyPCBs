@@ -1355,17 +1355,6 @@ Wire Wire Line
 	1500 8050 1750 8050
 Wire Wire Line
 	1750 8150 1500 8150
-$Comp
-L Connector:Conn_01x02_Female J1
-U 1 1 5EB8FCEE
-P 1950 8050
-F 0 "J1" H 1977 8026 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 1977 7935 50  0000 L CNN
-F 2 "library:3 point pad" H 1950 8050 50  0001 C CNN
-F 3 "~" H 1950 8050 50  0001 C CNN
-	1    1950 8050
-	1    0    0    -1  
-$EndComp
 Text Notes 1300 3050 0    59   ~ 0
 BL654 nRF52840 module
 Text Notes 5800 3200 0    59   ~ 0
@@ -1412,4 +1401,30 @@ Wire Wire Line
 	5550 8150 5800 8150
 Wire Wire Line
 	6100 8550 6100 8450
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 5C0E47FD
+P 1950 8150
+F 0 "J1" H 1977 8176 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 1977 8085 50  0000 L CNN
+F 2 "library:3 point pad" H 1950 8150 50  0001 C CNN
+F 3 "~" H 1950 8150 50  0001 C CNN
+	1    1950 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5C0E4D20
+P 1450 8350
+F 0 "#PWR016" H 1450 8100 50  0001 C CNN
+F 1 "GND" H 1450 8200 50  0000 C CNN
+F 2 "" H 1450 8350 50  0001 C CNN
+F 3 "" H 1450 8350 50  0001 C CNN
+	1    1450 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 8350 1450 8250
+Wire Wire Line
+	1450 8250 1750 8250
 $EndSCHEMATC
