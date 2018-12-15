@@ -823,9 +823,9 @@ Text GLabel 4400 5850 2    50   Input ~ 0
 D16/A2
 Text GLabel 4400 6050 2    50   Input ~ 0
 D17/A3
-Text GLabel 5950 5600 2    50   Input ~ 0
+Text GLabel 6300 4150 0    50   Input ~ 0
 D18/A4
-Text GLabel 5950 5700 2    50   Input ~ 0
+Text GLabel 6300 4550 0    50   Input ~ 0
 D19/A5
 Text GLabel 4400 5950 2    50   Input ~ 0
 D20/A6(Battery)
@@ -897,16 +897,12 @@ Text GLabel 6300 3650 0    50   Input ~ 0
 D1/RX
 Text GLabel 6300 3550 0    50   Input ~ 0
 D0/TX
-Text GLabel 6300 4150 0    50   Input ~ 0
-D4/LED2
 Text GLabel 6300 4250 0    50   Input ~ 0
 D5
 Text GLabel 6300 4350 0    50   Input ~ 0
 D6
 Text GLabel 6300 4450 0    50   Input ~ 0
 D7(button)
-Text GLabel 6300 4550 0    50   Input ~ 0
-D8/NeoPixel
 Text GLabel 6300 4650 0    50   Input ~ 0
 D9
 Text GLabel 8000 4650 2    50   Input ~ 0
@@ -1068,8 +1064,6 @@ Text GLabel 1600 4750 0    50   Input ~ 0
 D18/A4
 Text GLabel 1600 4850 0    50   Input ~ 0
 D19/A5
-NoConn ~ 5800 5600
-NoConn ~ 5800 5700
 NoConn ~ 5800 5900
 NoConn ~ 5800 6100
 NoConn ~ 5800 6300
@@ -1106,10 +1100,6 @@ Wire Wire Line
 	5950 6100 5800 6100
 Wire Wire Line
 	5950 5900 5800 5900
-Wire Wire Line
-	5950 5700 5800 5700
-Wire Wire Line
-	5800 5600 5950 5600
 Text GLabel 6300 3850 0    39   Input ~ 0
 GND
 NoConn ~ 6450 3750
@@ -1359,17 +1349,6 @@ Text Notes 1300 3050 0    59   ~ 0
 BL654 nRF52840 module
 Text Notes 5800 3200 0    59   ~ 0
 Arduino pro micro compatible pins
-$Comp
-L LED:WS2812B D7
-U 1 1 5C0CEFA0
-P 6100 8150
-F 0 "D7" H 6441 8196 50  0000 L CNN
-F 1 "SK6812" H 6441 8105 50  0000 L CNN
-F 2 "KiCAD footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6150 7850 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6200 7775 50  0001 L TNN
-	1    6100 8150
-	1    0    0    -1  
-$EndComp
 Text GLabel 5550 8150 0    50   Input ~ 0
 D8/NeoPixel
 $Comp
@@ -1427,4 +1406,15 @@ Wire Wire Line
 	1450 8350 1450 8250
 Wire Wire Line
 	1450 8250 1750 8250
+$Comp
+L LED:SK6812MINI D7
+U 1 1 5C16FBFC
+P 6100 8150
+F 0 "D7" H 6441 8196 50  0000 L CNN
+F 1 "SK6812MINI" H 6441 8105 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6150 7850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6200 7775 50  0001 L TNN
+	1    6100 8150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
