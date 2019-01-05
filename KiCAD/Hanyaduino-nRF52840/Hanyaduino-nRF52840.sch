@@ -1292,21 +1292,12 @@ Text GLabel 9500 4300 0    39   Input ~ 0
 GND
 Text GLabel 10650 4000 2    39   Input ~ 0
 VCC
-Text GLabel 9500 4200 0    39   Input ~ 0
-VCC
 Wire Wire Line
 	9500 4100 9700 4100
 Wire Wire Line
 	9500 4200 9700 4200
 Wire Wire Line
 	9500 4300 9700 4300
-Wire Wire Line
-	10500 4000 10550 4000
-Wire Wire Line
-	10500 4100 10550 4100
-Wire Wire Line
-	10550 4100 10550 4000
-Connection ~ 10550 4000
 Wire Wire Line
 	10500 4200 10650 4200
 Wire Wire Line
@@ -1315,26 +1306,18 @@ Text Notes 9200 3250 0    60   ~ 0
 SPI flash
 Wire Wire Line
 	9600 4000 9700 4000
-Wire Wire Line
-	10550 4000 10650 4000
-Text GLabel 9500 4100 0    50   Input ~ 0
+Text GLabel 10650 4300 2    50   Input ~ 0
 D29/data0(QSPI)
 Text GLabel 10650 4200 2    50   Input ~ 0
 D27/CLK(QSPI)
 Text GLabel 9500 4000 0    50   Input ~ 0
 D28/CS(QSPI)
-Text GLabel 10650 4300 2    50   Input ~ 0
+Text GLabel 9500 4100 0    50   Input ~ 0
 D30/data1(QSPI)
-Text GLabel 10650 4800 2    50   Input ~ 0
+Text GLabel 10650 4100 2    50   Input ~ 0
 D32/data3(QSPI)
-Text GLabel 10650 4700 2    50   Input ~ 0
+Text GLabel 9500 4200 0    50   Input ~ 0
 D31/data2(QSPI)
-NoConn ~ 10500 4800
-NoConn ~ 10500 4700
-Wire Wire Line
-	10500 4700 10650 4700
-Wire Wire Line
-	10650 4800 10500 4800
 Text Notes 850  7550 0    59   ~ 0
 UART connector
 Text GLabel 1500 8150 0    50   Input ~ 0
@@ -1417,4 +1400,8 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    6100 8150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10500 4000 10650 4000
+Wire Wire Line
+	10500 4100 10650 4100
 $EndSCHEMATC
