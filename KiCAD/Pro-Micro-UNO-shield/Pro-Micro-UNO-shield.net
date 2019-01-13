@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/takemura/github/MyPCBs/KiCAD/Pro-Micro-UNO-shield/Pro-Micro-UNO-shield.sch)
-    (date "2019 January 13, Sunday 02:03:56")
+    (date "2019 January 13, Sunday 15:21:05")
     (tool "Eeschema (5.0.0-3-g5ebb6b6)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -47,7 +47,7 @@
       (tstamp 5C3AB2D2))
     (comp (ref J10)
       (value "Qwiic I2c")
-      (footprint library:JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight)
+      (footprint library:Qwiic_I2C_1.00mm_4pin)
       (libsource (lib mylib) (part Groveconn4) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C40D00D))
