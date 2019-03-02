@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x02_Male
+# Connector_Conn_01x02_Male
 #
-DEF Connector:Conn_01x02_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x02_Male" 0 -200 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -21,11 +21,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x10_Male
+# Connector_Conn_01x10_Male
 #
-DEF Connector:Conn_01x10_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x10_Male J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Connector:Conn_01x10_Male" 0 -600 50 H V C CNN
+F1 "Connector_Conn_01x10_Male" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -65,11 +65,11 @@ X Pin_9 9 200 -400 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED_Small
+# Device_LED_Small
 #
-DEF Device:LED_Small D 0 10 N N 1 F N
+DEF Device_LED_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "Device:LED_Small" -175 -100 50 H V L CNN
+F1 "Device_LED_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -88,11 +88,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R_Small
+# Device_R_Small
 #
-DEF Device:R_Small R 0 10 N N 1 F N
+DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device:R_Small" 30 -40 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -105,11 +105,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_Push
+# Switch_SW_Push
 #
-DEF Switch:SW_Push SW 0 40 N N 1 F N
+DEF Switch_SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch:SW_Push" 0 -60 50 H V C CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -122,11 +122,29 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# mylib:Arduino_Header
+# Switch_SW_SPDT
 #
-DEF mylib:Arduino_Header J 0 1 Y Y 1 F N
+DEF Switch_SW_SPDT SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "Switch_SW_SPDT" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mylib_Arduino_Header
+#
+DEF mylib_Arduino_Header J 0 1 Y Y 1 F N
 F0 "J" 0 1000 60 H V C CNN
-F1 "mylib:Arduino_Header" 0 -1000 60 H V C CNN
+F1 "mylib_Arduino_Header" 0 -1000 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -171,11 +189,11 @@ X VIN V_IN -350 300 100 R 35 39 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mylib:Arduino_pro_micro_conn
+# mylib_Arduino_pro_micro_conn
 #
-DEF mylib:Arduino_pro_micro_conn J 0 40 Y Y 1 F N
+DEF mylib_Arduino_pro_micro_conn J 0 40 Y Y 1 F N
 F0 "J" -400 450 60 H V C CNN
-F1 "mylib:Arduino_pro_micro_conn" 0 -850 60 H V C CNN
+F1 "mylib_Arduino_pro_micro_conn" 0 -850 60 H V C CNN
 F2 "" -250 0 60 H I C CNN
 F3 "" -250 0 60 H I C CNN
 DRAW
@@ -208,11 +226,11 @@ X D6/A7 9 -700 -450 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mylib:Groveconn4
+# mylib_Groveconn4
 #
-DEF mylib:Groveconn4 J 0 40 Y Y 1 F N
+DEF mylib_Groveconn4 J 0 40 Y Y 1 F N
 F0 "J" 350 -550 60 H V C CNN
-F1 "mylib:Groveconn4" 300 -50 60 H V C CNN
+F1 "mylib_Groveconn4" 300 -50 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -224,11 +242,51 @@ X SCL 4 0 -450 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# mylib:SPI_conn
+# mylib_SN74LVC541ADBR
 #
-DEF mylib:SPI_conn J 0 40 Y Y 1 F N
+DEF mylib_SN74LVC541ADBR U 0 10 Y Y 1 F N
+F0 "U" 800 500 60 H V C CNN
+F1 "mylib_SN74LVC541ADBR" 800 400 60 H V C CNN
+F2 "DB20" 800 340 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ DB20
+ DB20-M
+ DB20-L
+$ENDFPLIST
+DRAW
+P 2 1 0 5 300 -1600 1300 -1600 N
+P 2 1 0 5 300 300 300 -1600 N
+P 2 1 0 5 1300 -1600 1300 300 N
+P 2 1 0 5 1300 300 300 300 N
+X *OE1 1 0 0 300 R 59 59 1 0 I
+X GND 10 1600 -1000 300 L 59 59 1 0 W
+X Y8 11 1600 -600 300 L 59 59 1 0 O
+X Y7 12 1600 -500 300 L 59 59 1 0 O
+X Y6 13 1600 -400 300 L 59 59 1 0 O
+X Y5 14 1600 -300 300 L 59 59 1 0 O
+X Y4 15 1600 -200 300 L 59 59 1 0 O
+X Y3 16 1600 -100 300 L 59 59 1 0 O
+X Y2 17 1600 0 300 L 59 59 1 0 O
+X Y1 18 1600 100 300 L 59 59 1 0 O
+X *OE2 19 0 -100 300 R 59 59 1 0 I
+X A1 2 0 -300 300 R 59 59 1 0 I
+X VCC 20 0 -1400 300 R 59 59 1 0 W
+X A2 3 0 -400 300 R 59 59 1 0 I
+X A3 4 0 -500 300 R 59 59 1 0 I
+X A4 5 0 -600 300 R 59 59 1 0 I
+X A5 6 0 -700 300 R 59 59 1 0 I
+X A6 7 0 -800 300 R 59 59 1 0 I
+X A7 8 0 -900 300 R 59 59 1 0 I
+X A8 9 0 -1000 300 R 59 59 1 0 I
+ENDDRAW
+ENDDEF
+#
+# mylib_SPI_conn
+#
+DEF mylib_SPI_conn J 0 40 Y Y 1 F N
 F0 "J" 0 350 60 H V C CNN
-F1 "mylib:SPI_conn" 0 -300 60 H V C CNN
+F1 "mylib_SPI_conn" 0 -300 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -241,6 +299,19 @@ X ~RST 5 -450 -50 200 R 50 50 1 1 I
 X GND 6 400 -50 200 L 50 50 1 1 I
 X CS 7 -450 -150 200 R 50 50 1 1 I
 X INT 8 400 -150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
