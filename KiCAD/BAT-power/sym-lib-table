@@ -1,5 +1,5 @@
 (sym_lib_table
   (lib (name BAT-power-rescue)(type Legacy)(uri ${KIPRJMOD}/BAT-power-rescue.lib)(options "")(descr ""))
-  (lib (name Battery_Management1)(type Legacy)(uri /Users/takemura/github/MyPCBs/KiCAD/library/Battery_Management.lib)(options "")(descr ""))
-  (lib (name mylib)(type Legacy)(uri /Users/takemura/github/MyPCBs/KiCAD/library/mylib.lib)(options "")(descr ""))
+  (lib (name Battery_Management1)(type Legacy)(uri ${KIPRJMOD}/../library/Battery_Management.lib)(options "")(descr ""))
+  (lib (name mylib)(type Legacy)(uri ${KIPRJMOD}/../library/mylib.lib)(options "")(descr ""))
 )
