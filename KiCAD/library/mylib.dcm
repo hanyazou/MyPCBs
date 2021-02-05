@@ -5,4 +5,9 @@ D Cortex-M0+ 256KB 16KB SRAM 32TQFP 48MHz Atmel ATSAMD21E18A-AU, 32bit ARM Corte
 F http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf
 $ENDCMP
 #
+$CMP WS2812C-2020
+D Intelligent control LED integrated light source
+F http://www.world-semi.com/DownLoadFile/139
+$ENDCMP
+#
 #End Doc Library

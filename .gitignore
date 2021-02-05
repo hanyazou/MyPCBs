@@ -3,3 +3,4 @@
 *.kicad_wks
 *.bck
 rescue-backup
+.DS_Store

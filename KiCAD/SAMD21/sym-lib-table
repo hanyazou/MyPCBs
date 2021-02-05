@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name mylib)(type Legacy)(uri /Users/takemura/Documents/KiCAD/library/mylib.lib)(options "")(descr ""))
+  (lib (name SAMD21-rescue)(type Legacy)(uri ${KIPRJMOD}/SAMD21-rescue.lib)(options "")(descr ""))
 )
