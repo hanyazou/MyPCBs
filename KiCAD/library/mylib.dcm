@@ -5,6 +5,12 @@ D Cortex-M0+ 256KB 16KB SRAM 32TQFP 48MHz Atmel ATSAMD21E18A-AU, 32bit ARM Corte
 F http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf
 $ENDCMP
 #
+$CMP SW_Coded_42J12ZB
+D Rotary switch, 4-bit encoding, 10 positions, Real code
+K rotary bcd Real
+F https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+$ENDCMP
+#
 $CMP WS2812C-2020
 D Intelligent control LED integrated light source
 F http://www.world-semi.com/DownLoadFile/139
