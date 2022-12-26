@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Adafruit_nRF52_Bluefruit_Feather-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_nRF52_Bluefruit_Feather-eagle-import.lib)(options "")(descr ""))
+  (lib (name Hanyaduino-nRF52840-rescue)(type Legacy)(uri ${KIPRJMOD}/Hanyaduino-nRF52840-rescue.lib)(options "")(descr ""))
 )
