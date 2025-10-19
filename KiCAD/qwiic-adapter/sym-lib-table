@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "qwiic-adapter-rescue")(type "KiCad")(uri "${KIPRJMOD}/qwiic-adapter-rescue.kicad_sym")(options "")(descr ""))
+)
